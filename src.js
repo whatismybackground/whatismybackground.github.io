@@ -1,2 +1,3 @@
-var input = document.getElementById("input").innerhtml;
-console.log(input);
+var input = document.getElementById("input").value;
+
+document.getElementById("thing").innerHTML = input;
